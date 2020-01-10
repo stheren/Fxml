@@ -1,0 +1,129 @@
+#Body {
+    -fx-background-image: url("fond.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#CaseDeMemoire > .button, #ListeElements > .button{
+    -fx-background-radius: 6em;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-border-width: 1;
+    -fx-border-radius: 6em;
+    -fx-font: 20px "Arial black";
+}
+
+
+#btnPrimary {
+    -fx-background-color: transparent;
+    -fx-text-fill: #007bff;
+    -fx-border-color: #007bff;
+}
+
+#btnPrimary:hover{
+    -fx-background-color: #007bff;
+    -fx-border-color: #007bff;
+    -fx-text-fill: #fff;
+}
+
+#btnSuccess {
+    -fx-background-color: transparent;
+    -fx-text-fill: #28a745;
+    -fx-border-color: #28a745;
+}
+
+#btnSuccess:hover{
+    -fx-background-color: #28a745;
+    -fx-border-color: #28a745;
+    -fx-text-fill: #fff;
+}
+
+#btnDanger {
+    -fx-background-color: transparent;
+    -fx-text-fill: #dc3545;
+    -fx-border-color: #dc3545;
+}
+
+#btnDanger:hover{
+    -fx-background-color: #dc3545;
+    -fx-border-color: #dc3545;
+    -fx-text-fill: #fff;
+}
+
+#btnSecondary {
+    -fx-background-color: transparent;
+    -fx-text-fill: #6c757d;
+    -fx-border-color: #6c757d;
+}
+
+#btnSecondary:hover{
+    -fx-background-color: #6c757d;
+    -fx-border-color: #6c757d;
+    -fx-text-fill: #fff;
+}
+
+
+#Zone{
+    -fx-background-color: transparent;
+}
+
+.menu-bar {
+    -fx-background-color: #2C2F33;
+}
+.menu .label, .menu-item .label {
+    -fx-text-fill: #eee;
+}
+.menu:hover, .menu:focused, .menu:pressed {
+    -fx-background-color: rgba(0, 0, 0, 0.2);
+}
+.menu-item:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+}
+.context-menu {
+    -fx-background-color: #2C2F33;
+}
+
+#CaseDeMemoire {
+    -fx-padding: 2 0 2 0;
+}
+
+.scroll-pane {
+    -fx-background-color: black;
+}
+
+.scroll-pane .scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.scroll-pane .increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .scroll-bar:horizontal .track,
+.scroll-pane .scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 5em;
+}
+
+.scroll-pane .scroll-bar:horizontal .thumb,
+.scroll-pane .scroll-bar:vertical .thumb {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 5em;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+#ListeElements{
+    -fx-background-color: rgba(0, 0, 0, 0.3);
+}
+
+#ListeElements .label{
+        -fx-text-fill: #eee;
+}
+
